@@ -1,0 +1,101 @@
+# 📊 Predicción de Demanda con ARIMA en Python
+
+## 📌 Introducción
+
+Este proyecto implementa un modelo ARIMA para la predicción de demanda utilizando Python. Se generan datos simulados de 36 meses, se ajusta un modelo ARIMA y se pronostica la demanda para los próximos tres meses. Finalmente, exportamos los datos a CSV para su análisis en Power BI.
+
+## 🔧 Librerías Necesarias
+
+```python
+import pandas as pd  # Manipulación de datos
+import numpy as np  # Cálculos numéricos
+import matplotlib.pyplot as plt  # Gráficos
+import seaborn as sns  # Visualización de datos
+from statsmodels.tsa.arima.model import ARIMA  # Modelo ARIMA para forecasting
+```
+
+## 🗂️ Creación del Dataset Simulado
+
+Creamos un conjunto de datos con fechas mensuales y valores aleatorios de demanda:
+
+```python
+fechas = pd.date_range(start="2020-01-01", periods=36, freq="ME")  # 36 meses de datos
+demanda = np.random.randint(50, 200, size=len(fechas))  # Valores aleatorios
+
+df = pd.DataFrame({"Fecha": fechas, "Demanda": demanda})
+df.set_index("Fecha", inplace=True)
+```
+
+## 📊 Visualización de la Serie de Tiempo
+
+```python
+plt.figure(figsize=(12, 5))
+sns.lineplot(data=df, x=df.index, y="Demanda", marker="o", label="Demanda real")
+plt.title("Demanda Histórica")
+plt.xlabel("Fecha")
+plt.ylabel("Cantidad")
+plt.grid(True)
+plt.legend()
+plt.show()
+```
+
+## 🔄 Preprocesamiento de Datos
+
+```python
+df.index = pd.to_datetime(df.index)  # Convertimos el índice en tipo datetime
+df = df.asfreq("ME")  # Definir la frecuencia mensual
+df["Demanda"] = pd.to_numeric(df["Demanda"], errors="coerce")
+```
+
+## 🤖 Modelo ARIMA (2,1,2)
+
+```python
+modelo = ARIMA(df["Demanda"], order=(2, 1, 2))  # Parámetros (p=2, d=1, q=2)
+modelo_entrenado = modelo.fit()
+print(modelo_entrenado.summary())  # Resumen del modelo
+```
+
+## 🔮 Predicción de los Próximos 3 Meses
+
+```python
+fechas_futuras = pd.date_range(start=df.index[-1] + pd.DateOffset(months=1), periods=3, freq="ME")
+prediccion = modelo_entrenado.forecast(steps=3)
+
+df_prediccion = pd.DataFrame({"Fecha": fechas_futuras, "Demanda_Pronosticada": prediccion.values})
+df_prediccion.set_index("Fecha", inplace=True)
+```
+
+## 📈 Visualización de la Predicción
+
+```python
+plt.figure(figsize=(10, 5))
+plt.plot(df.index, df["Demanda"], label="Demanda Histórica", marker="o")
+plt.plot(df_prediccion.index, df_prediccion["Demanda_Pronosticada"], label="Pronóstico", linestyle="dashed", marker="s", color="red")
+plt.xlabel("Fecha")
+plt.ylabel("Demanda")
+plt.title("📈 Pronóstico de Demanda con ARIMA (2,1,2)")
+plt.legend()
+plt.grid()
+plt.show()
+```
+
+## 💾 Exportación a CSV para Power BI
+
+```python
+df_prediccion.to_csv("pronostico_demanda.csv")
+print("✅ Pronóstico guardado como 'pronostico_demanda.csv'. Listo para Power BI!")
+```
+
+## 📌 Explicación del Modelo ARIMA
+
+El modelo ARIMA (2,1,2) tiene tres componentes clave:
+- **p = 2** (Orden autorregresivo): Usa los últimos 2 valores para predecir el siguiente.
+- **d = 1** (Diferenciación): Se usa una diferencia para hacer la serie estacionaria.
+- **q = 2** (Orden de la media móvil): Usa 2 errores pasados en la predicción.
+
+Este modelo ayuda a predecir la demanda basándose en patrones temporales, útil en logística, retail y gestión de inventarios.
+
+---
+
+¡Si te gusta este proyecto, no olvides darle ⭐ en GitHub! 🚀
+
