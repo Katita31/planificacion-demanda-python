@@ -23,12 +23,12 @@ git clone https://github.com/Katita31/planificacion-demanda-python.git
 pip install -r requirements.txt
 jupyter notebook forecast_demanda.ipynb
 
-##🌐 **Contacto Profesional**
+🌐 Contacto Profesional
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kattyacontrerasv/) | 📧 [Email](mailto:kattyacontreras.v@gmail.com) | 💻 [GitHub](https://github.com/Katita31)
 
 📍 **Ubicación:** Santiago, Chile  
-🕒 **Disponibilidad:** Remoto | Híbrido  
+🕒 **Disponibilidad:** Remoto | Híbrido
 
 ### 💼 **Áreas de Interés**
 - Proyectos de Data Science aplicados a **compras y abastecimiento**
