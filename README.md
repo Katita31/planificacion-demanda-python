@@ -28,13 +28,7 @@ jupyter notebook forecast_demanda.ipynb
 
 ## 🌐 **Contacto Profesional**
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kattya_Contreras-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kattyacontrerasv/)
-[![Email](https://img.shields.io/badge/Email-kattyacontreras.v@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kattyacontreras.v@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Katita31-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Katita31)
-
-</div>
+🔗 [LinkedIn](https://www.linkedin.com/in/kattyacontrerasv/) | 📧 [Email](mailto:kattyacontreras.v@gmail.com) | 💻 [GitHub](https://github.com/Katita31)
 
 📍 **Ubicación:** Santiago, Chile  
 🕒 **Disponibilidad:** Remoto | Híbrido  
