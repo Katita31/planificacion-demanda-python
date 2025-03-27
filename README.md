@@ -28,15 +28,25 @@ jupyter notebook forecast_demanda.ipynb
 
 ## 📬 **Contáctame para colaboraciones**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/kattyacontrerasv)  
-[![Email](https://img.shields.io/badge/Email-Hazme_consulta-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kattyacontreras.v@gmail.com)  
-[![GitHub](https://img.shields.io/badge/GitHub-Sigue_mis_proyectos-181717?style=for-the-badge&logo=github)](https://github.com/Katita31)  
+## 🌍 **Conéctate conmigo**
 
-<!-- Si quieres añadir más -->
+<p align="center">
+  <a href="https://linkedin.com/in/kattyacontrerasv" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Kattya_Contreras-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="28">
+  </a>
+  <a href="mailto:kattyacontreras.v@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-Contáctame-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="28">
+  </a>
+  <a href="https://github.com/Katita31" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-Mis_Proyectos-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="28">
+  </a>
+</p>
+
 📍 **Ubicación:** Santiago, Chile  
 🕒 **Disponibilidad:** Remoto o híbrido  
 
-
-📌 **Disponible para:**  
+📌 **Interesada en:**  
 - Colaboraciones en proyectos de Data Science  
-
+- Optimización de procesos de compras y abastecimiento  
+- Desarrollo de dashboards analíticos en Power BI  
+- Proyectos que integren Supply Chain con análisis de datos  
