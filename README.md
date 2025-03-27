@@ -2,6 +2,9 @@
 **Autora:** Kattya Contreras  
 **Objetivo:** Predecir demanda mensual para optimizar **niveles de stock** y reducir costos de inventario.  
 
+```markdown
+![Banner Data Science](https://via.placeholder.com/1200x400/2A5C82/FFFFFF?text=Data+Science+%7C+Supply+Chain+Optimization)
+
 ## 🔍 **Contexto del Negocio**  
 Proyecto desarrollado durante mi experiencia en **gestión de compras**, donde identificamos que el **25% del capital estaba atrapado en stock innecesario**.  
 
