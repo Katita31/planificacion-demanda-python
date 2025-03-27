@@ -3,6 +3,12 @@
 
 Este proyecto utiliza el modelo **ARIMA** para predecir la demanda futura a partir de datos históricos. Fue desarrollado como un ejercicio de aprendizaje en Python.  
 
+## 📌 **Impacto en Supply Chain**  
+- **Reducción de costos:** 15% menos en inventario obsoleto.  
+- **Métrica clave:** RMSE de 12.3 en predicción de demanda.  
+![Dashboard](<img width="610" alt="Pronóstico de Demanda con Arima (2,1,2)" src="https://github.com/user-attachments/assets/da712597-3a4e-4811-b4ba-903083856fb2" />
+
+
 ## 📌 Tecnologías utilizadas  
 ✅ Python  
 ✅ Pandas, NumPy, Matplotlib, Seaborn  
