@@ -11,7 +11,7 @@ Este proyecto utiliza el modelo **ARIMA** para predecir la demanda futura a part
 
 **Resultado final**
 
-<img width="474" alt="Pronóstico de la demanda de los próximos 3 meses" src="https://github.com/user-attachments/assets/62c0608d-194d-4890-ad0c-7967df061496" />
+    <img width="474" alt="Pronóstico de la demanda de los próximos 3 meses" src="https://github.com/user-attachments/assets/62c0608d-194d-4890-ad0c-7967df061496" />
 
 
 ## 📌 Tecnologías utilizadas  
