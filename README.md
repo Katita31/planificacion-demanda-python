@@ -22,3 +22,7 @@ Proyecto desarrollado durante mi experiencia en **gestión de compras**, donde i
 git clone https://github.com/Katita31/planificacion-demanda-python.git
 pip install -r requirements.txt
 jupyter notebook forecast_demanda.ipynb
+
+📬 Contacto
+LinkedIn
+📧 Email: kattyacontreras.v@gmail.com
