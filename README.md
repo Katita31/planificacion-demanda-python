@@ -6,10 +6,12 @@ Este proyecto utiliza el modelo **ARIMA** para predecir la demanda futura a part
 ## 📌 **Impacto en Supply Chain**  
 - **Reducción de costos:** 15% menos en inventario obsoleto.  
 - **Métrica clave:** RMSE de 12.3 en predicción de demanda.
--  
+   
  <img width="610" alt="Pronóstico de Demanda con Arima (2,1,2)" src="https://github.com/user-attachments/assets/f05c97ac-945e-462a-a702-f114abb29367" />
 
 **Resultado final**
+        <img width="474" alt="Pronóstico de la demanda de los próximos 3 meses" src="https://github.com/user-attachments/assets/756ff61a-b6a1-40e8-8731-1b1cae372078" />
+
 
 ## 📌 Tecnologías utilizadas  
 ✅ Python  
