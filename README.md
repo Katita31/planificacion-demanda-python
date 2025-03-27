@@ -17,13 +17,7 @@ Proyecto desarrollado durante mi experiencia en **gestión de compras**, donde i
 
 <img width="610" alt="Pronóstico de Demanda con Arima (2,1,2)" src="https://github.com/user-attachments/assets/f05c97ac-945e-462a-a702-f114abb29367" />
    
-## 🚀 **¿Cómo Ejecutarlo?**  
-```bash
-git clone https://github.com/Katita31/planificacion-demanda-python.git
-pip install -r requirements.txt
-jupyter notebook forecast_demanda.ipynb
-
-🌐 Contacto Profesional
+🌐 **Contacto Profesional**
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kattyacontrerasv/) | 📧 [Email](mailto:kattyacontreras.v@gmail.com) | 💻 [GitHub](https://github.com/Katita31)
 
@@ -31,6 +25,14 @@ jupyter notebook forecast_demanda.ipynb
 🕒 **Disponibilidad:** Remoto | Híbrido
 
 ### 💼 **Áreas de Interés**
-- Proyectos de Data Science aplicados a **compras y abastecimiento**
+- Proyectos de Data Science aplicados a **Planificación de compras y abastecimiento**
 - Optimización de inventarios mediante modelos predictivos
 - Análisis de datos para negociación con proveedores
+- Creación de modelos predictivos
+
+## 🚀 **¿Cómo Ejecutarlo?**  
+```bash
+git clone https://github.com/Katita31/planificacion-demanda-python.git
+pip install -r requirements.txt
+jupyter notebook forecast_demanda.ipynb
+
