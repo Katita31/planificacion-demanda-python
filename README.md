@@ -4,7 +4,10 @@
 **Objetivo:** Predecir demanda mensual para optimizar **niveles de stock** y reducir costos de inventario.  
 
 ## 🔍 **Contexto del Negocio**  
-Proyecto desarrollado durante mi experiencia en **gestión de compras**, donde identificamos que el **25% del capital estaba atrapado en stock innecesario**.  
+Proyecto desarrollado durante mi experiencia en **gestión de compras**, donde identificamos que el **25% del capital estaba atrapado en stock innecesario**.
+
+## 🎯 Objetivo  
+Reducir un 25% el stock innecesario mediante modelos predictivos aplicados a compras.
 
 ## 🛠 **Tecnologías**  
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python)  
