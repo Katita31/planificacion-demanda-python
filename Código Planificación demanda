@@ -1,3 +1,14 @@
+# 📌 Contexto para Compras (Copia esto como celda Markdown)
+"""
+## 🔍 Método ARIMA Aplicado a Compras
+- **order=(1,1,1):**  
+  - `p=1`: La demanda actual depende del mes anterior (ej: contratos recurrentes).  
+  - `d=1`: Diferenciación para eliminar tendencias (evita sobrestock).  
+  - `q=1`: Suaviza errores en pedidos estacionales.  
+- **seasonal_order=(1,1,1,12):**  
+  - Modela patrones anuales (ej: aumento de compras en diciembre).  
+"""
+
 # planificacion-demanda-python
 Proyecto de Python sobre planificación de la demanda y análisis de forecast con ARIMA.
 En este proyecto, se realizará el análisis del forecast del área de planificación y compras.
