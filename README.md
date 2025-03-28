@@ -23,7 +23,7 @@ Reducir un 25% el stock innecesario mediante modelos predictivos aplicados a com
    
 🌐 **Contacto Profesional**
 
-🔗 [LinkedIn](https://www.linkedin.com/in/kattyacontrerasv/) | 📧 [Email](mailto:kattyacontreras.v@gmail.com) | 💻 [GitHub](https://github.com/Katita31)
+🔗 [LinkedIn](https://www.linkedin.com/in/kattyacontrerasv/) https://www.linkedin.com/in/kattyacontrerasv/| 📧 [Email](mailto:kattyacontreras.v@gmail.com) Kattyacontreras.v@gmail.com | 💻 [GitHub](https://github.com/Katita31) https://github.com/Katita31
 
 📍 **Ubicación:** Santiago, Chile  
 🕒 **Disponibilidad:** Remoto | Híbrido
